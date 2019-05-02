@@ -3,10 +3,6 @@
 int detectAndCountCircles(cv::Mat image)
 {
 	if (image.empty()) {
-		std::string error = "Webcam image is not opened or found. Please, repeate it!";
-		cv::Mat errorImage = cv::Mat(200, 400, CV_8UC1);
-		cv::putText(errorImage, error, cv::Point(10, 100), cv::FONT_HERSHEY_SIMPLEX, 0.4, cv::Scalar(0, 0, 0), 1);
-		displayResultimage(errorImage);
 
 		return -1;
 	}
