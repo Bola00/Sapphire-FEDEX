@@ -9,6 +9,7 @@
 #ifndef H_CIRCLE_DETECTION
 #define H_CIRCLE_DETECTION
 
+cv::Mat useWebcam();
 void displayResultimage(cv::Mat image);
 int detectAndCountCircles(cv::Mat image);
 

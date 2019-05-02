@@ -8,3 +8,7 @@ void displayResultimage(cv::Mat image)
 {
 
 }
+cv::Mat useWebcam()
+{
+
+}
