@@ -47,7 +47,7 @@ int detectAndCountCircles(cv::Mat image)
 		circle(cloneImage, center, radius, cv::Scalar(0, 255, 255), 3, 4, 0);
 		detectedCircles++;
 	}
-	displayResultimage(cloneImage);
+	//displayResultimage(cloneImage);
 	//displayResultimage(grayScaleImage);
 
 	return detectedCircles;

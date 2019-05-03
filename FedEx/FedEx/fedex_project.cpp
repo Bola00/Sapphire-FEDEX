@@ -4,6 +4,7 @@
 
 void questionnaireFramework()
 {
+	createDataBase();
 	int detectedCircles;
 	std::vector<int> questionResults;
 	std::vector<std::string> baseQuestions = { "BASE_QUESTION_ONE", "BASE_QUESTION_TWO", "BASE_QUESTION_THREE" };
@@ -24,7 +25,7 @@ void questionnaireFramework()
 	}
 	std::cout << "We finished the first section" << std::endl;
 	std::cin.get();
-
+	/*
 	std::string previousImpactQuestion = "PREVIOUS_IMPACT";
 	for (int i = 0; i < 9; i++) {
 		cv::Mat webCamImage = useWebcam();
@@ -36,8 +37,8 @@ void questionnaireFramework()
 			displayResultimage(errorImage);
 		}
 		questionResults.push_back(detectedCircles);
-		insertData(5, previousImpactQuestion, questionResults);
 	}
+	insertData(5, previousImpactQuestion, questionResults);
 	questionResults.clear();
 
 	std::vector<std::string> aboutEventQuestions = { "ABOUT_EVENT_ONE", "ABOUT_EVENT_TWO", "ABOUT_EVENT_THREE", "ABOUT_EVENT_FOUR" };
@@ -53,7 +54,7 @@ void questionnaireFramework()
 			}
 			questionResults.push_back(detectedCircles);
 		}
-		insertData(5, baseQuestions[i], aboutEventQuestions);
+		insertData(5, aboutEventQuestions[i], questionResults);
 		questionResults.clear();
 	}
 
@@ -73,7 +74,7 @@ void questionnaireFramework()
 			}
 			questionResults.push_back(detectedCircles);
 		}
-		insertData(5, quiz[i], aboutEventQuestions);
+		insertData(5, quiz[i], questionResults);
 		questionResults.clear();
-	}
+	}*/
 }
