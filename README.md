@@ -36,4 +36,4 @@ The members of the organization give a table to each child. All question and ans
 
  - image about circle detection:
  
- <img src="img/img1.jpg" alt="three_circles" width="400" height="300">
+ <img src="img/img00.jpg" alt="three_circles" width="400" height="300">
