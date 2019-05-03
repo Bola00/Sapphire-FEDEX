@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <ctime>
+#include <windows.h>
 
 #ifndef DATABASE_H
 #define DATABASE_H

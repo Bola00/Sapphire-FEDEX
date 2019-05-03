@@ -45,6 +45,7 @@ int detectAndCountCircles(cv::Mat image)
 		circle(cloneImage, center, radius, cv::Scalar(0, 255, 255), 3, 4, 0);
 		detectedCircles++;
 	}
+
 	return detectedCircles;
 }
 cv::Mat useWebcam()
