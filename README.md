@@ -1,4 +1,4 @@
-# Sapphire-FEDEX - Te UNICEF PROJECT
+# Sapphire-FEDEX - The UNICEF project
 
 _created by_ László Bogár and Lilla Tóth
 
