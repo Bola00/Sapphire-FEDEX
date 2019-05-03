@@ -54,6 +54,6 @@ Between every answers the program waits 15 seconds to children have enough time 
    
   - image about web camera error
  
-<img src="img/error.jpg" alt="error" width="200" height="400">
+<img src="img/error.jpg" alt="error" width="400" height="200">
  
  
