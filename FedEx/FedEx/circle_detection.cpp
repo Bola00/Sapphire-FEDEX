@@ -64,6 +64,6 @@ void displayTimerImage(cv::Mat image)
 }
 
 void displayErrorImage(cv::Mat image) {
-	cv::namedWindow("TError", cv::WINDOW_NORMAL);
+	cv::namedWindow("Error", cv::WINDOW_NORMAL);
 	cv::imshow("Error", image);
 }
