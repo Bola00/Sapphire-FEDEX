@@ -9,8 +9,7 @@
 #define DATABASE_H
 
 int createDataBase();
-//int eventID();
+int eventID();
 int insertData(int ID, std::string TableChoose, std::vector<int> results);
-//int select();
 
 #endif //PCH_H
