@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FedEx", "FedEx\FedEx.vcxproj", "{729F8C61-0052-48D1-828E-249EF5CBF8F3}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FedEx_Database", "FedEx_Database\FedEx_Database.sqlproj", "{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,24 +25,6 @@ Global
 		{729F8C61-0052-48D1-828E-249EF5CBF8F3}.Release|x64.Build.0 = Release|x64
 		{729F8C61-0052-48D1-828E-249EF5CBF8F3}.Release|x86.ActiveCfg = Release|Win32
 		{729F8C61-0052-48D1-828E-249EF5CBF8F3}.Release|x86.Build.0 = Release|Win32
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x64.Build.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x64.Deploy.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x86.Build.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Debug|x86.Deploy.0 = Debug|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x64.ActiveCfg = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x64.Build.0 = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x64.Deploy.0 = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x86.ActiveCfg = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x86.Build.0 = Release|Any CPU
-		{C3975936-99F0-4BD3-AC66-8D54BCC2BBFC}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
