@@ -33,7 +33,8 @@ The program stores all detected answer for queries, which queries fit to types o
 
 ## How to use this program
 
-The members of the organization give a table to each child. All question and answer are introduced in speech or showed by a projector and when a child realizes that an upcoming answer is fit to his/her opinion, he/she raises a green table in front of a camera - currently a webcamera - that it shots a picture. Between every answers the program waits 15 seconds to children have enough time to hear/read the next answer and decide the answer is fit to their opinion. Before picture shots an upcoming window signs the expiration of time (see below). After this procedure the computer evaluates the picture and stores the detected shapes.<br/>
+The members of the organization give a table to each child. All question and answer are introduced in speech or showed by a projector and when a child realizes that an upcoming answer is fit to his/her opinion, he/she raises a green table in front of a camera - currently a webcamera - that it shots a picture. If there is any problem with the camera, for example it is not enable, the program sends an error messege (see below).
+Between every answers the program waits 15 seconds to children have enough time to hear/read the next answer and decide the answer is fit to their opinion. Before picture shots an upcoming window signs the expiration of time (see below). After this procedure the computer evaluates the picture and stores the detected shapes.<br/>
 
 ## Images
 
@@ -45,11 +46,14 @@ The members of the organization give a table to each child. All question and ans
 
  - image about "Hands up!"
  
-<img src="img/hands_up.jpg" alt="hands_up" width="400" height="300">
+<img src="img/hands_up.jpg" alt="hands_up" width="200" height="200">
  
   - image about "Hands up!"
  
-<img src="img/sql.jpg" alt="sql" width="400" height="700">
+<img src="img/sql.jpg" alt="sql" width="700" height="300">
+   
+  - image about web camera error
  
+<img src="img/error.jpg" alt="error" width="200" height="400">
  
  
