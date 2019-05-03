@@ -5,12 +5,13 @@
 void questionnaireFramework()
 {
 	createDataBase();
-	int eventID = eventID();
+	int event;
+	event = eventID();
 	cv::Mat timerImage = cv::Mat(200, 400, CV_8UC1);
 	int detectedCircles;
 	std::vector<int> questionResults;
 	std::vector<std::string> baseQuestions = { "BASE_QUESTION_ONE", "BASE_QUESTION_TWO", "BASE_QUESTION_THREE" };
-	for (int i = 0; i < 1; i++) {
+	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 5; j++) {
 			if (cv::waitKey(1000) >= 0) {
 				break;
@@ -31,7 +32,7 @@ void questionnaireFramework()
 			}
 			questionResults.push_back(detectedCircles);
 		}
-		insertData(eventID, baseQuestions[i], questionResults);
+		insertData(event, baseQuestions[i], questionResults);
 		questionResults.clear();
 	}
 	std::cout << "We finished the first section" << std::endl;
@@ -58,7 +59,7 @@ void questionnaireFramework()
 		}
 		questionResults.push_back(detectedCircles);
 	}
-	insertData(eventID, previousImpactQuestion, questionResults);
+	insertData(event, previousImpactQuestion, questionResults);
 	questionResults.clear();
 
 	std::vector<std::string> aboutEventQuestions = { "ABOUT_EVENT_ONE", "ABOUT_EVENT_TWO", "ABOUT_EVENT_THREE", "ABOUT_EVENT_FOUR" };
@@ -83,7 +84,7 @@ void questionnaireFramework()
 			}
 			questionResults.push_back(detectedCircles);
 		}
-		insertData(eventID, aboutEventQuestions[i], questionResults);
+		insertData(event, aboutEventQuestions[i], questionResults);
 		questionResults.clear();
 	}
 
@@ -103,7 +104,7 @@ void questionnaireFramework()
 			}
 			questionResults.push_back(detectedCircles);
 		}
-		insertData(eventID, quiz[i], questionResults);
+		insertData(event, quiz[i], questionResults);
 		questionResults.clear();
 	}
 }
