@@ -32,7 +32,7 @@ The database has three functions. The first is called createDatabase which creat
 
 ## How to use this program
 
-The members of the organization give a table to each child. All question and answer are introduced in speech or showed by a projector and when a child realizes that an upcoming answer is fit to his/her opinion, he/she raises a green table in front of a camera - currently a webcamera - that it shots a picture. If there is any problem with the camera, for example it is not enable, the program sends an error messege (see below).
+The members of the organization give a table to each child. All question and answer are introduced in speech or showed by a projector and when a child realizes that an upcoming answer is fit to his/her opinion, he/she raises a green table in front of a camera - currently a webcamera - that it shots a picture. If there is any problem with the camera, for example it is not enable, the program sends an error message (see below).
 Between every answer the program waits 15 seconds to children have enough time to hear/read the next answer and decide the answer is fit to their opinion. Before picture shots an upcoming window signs the expiration of time (see below). After this procedure the computer evaluates the picture and stores the number of detected shapes.<br/>
 
 ## Images
